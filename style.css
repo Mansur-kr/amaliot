@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+    font-family: "Inter", sans-serif;
+
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-color: #fff;
+  padding: 45px 0;
+  box-shadow: 0 2px 4px 3px #00000067;
+}
+.nav__links {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+select {
+  font-size: 36px;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+.main_container {
+  max-width: 650px;
+  height: 786px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 65px;
+  border: 1px solid #DEDBDB;
+  margin-top: 46px;
+  border-radius: 50px;
+}
+.a {
+  color: #f0400f;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_box2{
+    font-size: 24px;
+    color: #0E0D5D;
+    text-align: center;
+    margin-top:127px ;
+}
+.main_box3{
+    width: 533px;
+    height: 70px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn{
+    width: 255px;
+    height: 54px;
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #757575;
+    margin-top: 35px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 25px ;
+    background-color: #F5F5F5;
+    left: 11px;
+    
+}
+.btn:hover{
+    color: black;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+    
+}
+.text{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;   
+    margin-top: 47px;
+    background-color: ;
+    padding: 20px 51px;
+    background-color: #F5F5F5;
+    border: none;
+}
+.QR{
+    color: black;
+    opacity: 64%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Potverdit{
+    width: 203px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F69E86;
+    color: white;
+    font-size: 24px;
+    font-weight: 700 ;
+     margin-left: 300px;
+     margin-top: 30px;
+}
+.Potverdit:hover{
+    background-color: #f0400f;
+    transition: 0.5s ease-in-out;
+   
+}
